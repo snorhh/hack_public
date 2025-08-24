@@ -1,29 +1,29 @@
 ## h1 Korkeat standardit (Lari)
 
-### a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions.
+#### a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions.
 _Selvitä seuraavien kappaleiden määritteet ja selitä omin sanoin mitä ne tarkoittavat 
 3.2, 3.31, 3.56, 3.58, 3.77_
 
-### 3.2. attack
+#### 3.2. attack
 Attack eli hyökkäys tarkoittaa sellaista luvatonta toimintaa, jolla pyritään pääsemään käsiksi aineistoon, jota sitten tuhotaan, paljastetaan muille, muutetaan, varastetaan tai katsellaan. Hyökkäys on myös sellainen toiminta, jossa jotakin resurssia tai omaisuutta käytetään tavalla, johon ei ole lupaa.
 
-### 3.31 information security incident 
+#### 3.31 information security incident 
 Epätoivottu tai odottamaton tietoturvatapahtuma, joka suurella todennäköisyydellä saattaa vaarantaa yrityksen toimintaa ja sen tietoturvaa.
 
-### 3.56 requirement 
+#### 3.56 requirement 
 Vaatimus eli sellainen odotus, joka on esimerkiksi erikseen mainittu dokumentaatiossa tai se voi muuten olla pakollinen. Voi myös olla yrityksen ja muiden osapuolten kannalta yleisesti tiedossa tai tapana, että tällainen vaatimus on olemassa.
 
-### 3.58 review
+#### 3.58 review
 Toiminta, jolla arvioidaan jonkin asian sopivuus, riittävyys ja tehokkuus kyseisen asian tavoitteiden täyttämiseksi.
 
-### 3.77 vulnerability
+#### 3.77 vulnerability
 Haavoittuvuus eli sellainen ominaisuuden tai kontrollin heikkous, jota voidaan hyväksikäyttää.
 
      
-## b)  Tutustu standardiin ISO 27034-1 - 5. Selvitä mistä standardi kokonaisuudesta on kyse.
+### b)  Tutustu standardiin ISO 27034-1 - 5. Selvitä mistä standardi kokonaisuudesta on kyse.
 Standari käsittelee sovellusten turvallisuutta: se auttaa organisaatioita integroimaan turvallisuuden ohjelmiston koko elinkaaren ajan. Sisältää muun muassa prosessit, turvallisuusvaatimukset ja riskien arvioinnin.
 
-## c) Kuuntele Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä  
+### c) Kuuntele Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä  
 
 _https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/
 Mieti mitä podcastin väittämistä?_
@@ -43,7 +43,7 @@ Oma pohdinta: En ole itse ollut tekemisissä automaatiotestauksen kannalta. Podc
 
 4. __Ohjelmistoa suunniteltaessa voidaan tehdä paljonkin auttamaan käyttäjää toimimaan tietoturvallisesti - usein nämä toimenpiteet toimivat kuitenkin negatiivisesti käytettävyyteen__
 
-Omat pohdinta: Olen itsekin törmännyt tilanteeseen, jossa olin tehnyt salasanan, saattoi jopa olla että tein sen salasanageneraattorilla, mutta järjestelmä halusi että sinne lisätään iso kirjain tai jotain vastaavaa. Se tuntui täysin tarpeettomalta kikkailulta, koska generaattorin antama salasana oli jo tarpeeksi vahva, etenkin kun järjestelmä itsessään tuskin oli mikään kriittinen. Podcastin esimerkki ympäri liikettä olevista kassoista oli mielenkiintoinen ja siitä tuli mieleen myös ihan tavalliset toimistot, joissa on paljon erilaisia ihmisiä töissä. Ilman salasananhallintaohjelmia on täysin mahdotonta, että kaikki työntekijät käyttäisivät tarpeeksi pitkiä ja monimutkaisia salasanoja, koska muuten niitä kirjoitetaan paperille tai muuta vastaavaa.
+Oma pohdinta: Olen itsekin törmännyt tilanteeseen, jossa olin tehnyt salasanan, saattoi jopa olla että tein sen salasanageneraattorilla, mutta järjestelmä halusi että sinne lisätään iso kirjain tai jotain vastaavaa. Se tuntui täysin tarpeettomalta kikkailulta, koska generaattorin antama salasana oli jo tarpeeksi vahva, etenkin kun järjestelmä itsessään tuskin oli mikään kriittinen. Podcastin esimerkki ympäri liikettä olevista kassoista oli mielenkiintoinen ja siitä tuli mieleen myös ihan tavalliset toimistot, joissa on paljon erilaisia ihmisiä töissä. Ilman salasananhallintaohjelmia on täysin mahdotonta, että kaikki työntekijät käyttäisivät tarpeeksi pitkiä ja monimutkaisia salasanoja, koska muuten niitä kirjoitetaan paperille tai muuta vastaavaa.
 
 5. __Ohjelmiston tietoturvan suunnitteluun vaikuttaa paljolti se, kuinka arkaluonteisia tietoja sillä on tarkoitus käsitellä__
 
@@ -97,4 +97,3 @@ Miten haittaohjelmat eivät pääse leviämään:
 - poista clipboard-toiminnallisuus
 - ei jaettuja kansioita (Lähde kahteen edelliseen: https://www.techtarget.com/searchvirtualdesktop/answer/Can-a-virtual-machine-infect-its-host-with-a-virus)
 - jos testauksessa ei tarvita internet-yhteyttä, katkaise se
-
