@@ -57,7 +57,7 @@ Oma pohdinta: Olen samaa mieltä siitä, että toisaalta mitä kriittisimpiä ti
 Oma pohdinta: En ollut tällaista asiaa aiemmin ajatellut, ja oli mielenkiintoista kuulla ohjelmistokehittäjän mietteitä asiasta.
 
 
-##  4.  Tee itsellesi riskienhallintasuunnitelma.  
+### d.  Tee itsellesi riskienhallintasuunnitelma.  
 
 _1. Suunnitelmassa pitää olla kuvaus ympäristöstä_  
 _2. Miten varmistat, että ympäristöön ei päästä tunkeutumaan ulkopuolisten toimesta_  
