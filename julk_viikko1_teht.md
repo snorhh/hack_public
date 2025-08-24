@@ -1,4 +1,4 @@
-Sovellusten hakkerointi - 2025 alkusyksy
+Sovellusten hakkerointi - 2025 alkusyksy  
 ICI012AS3A-3002
 
 ## h1 Korkeat standardit (Lari)
