@@ -4,26 +4,26 @@
 _Selvitä seuraavien kappaleiden määritteet ja selitä omin sanoin mitä ne tarkoittavat 
 3.2, 3.31, 3.56, 3.58, 3.77_
 
-### 3.2. attack
+#### 3.2. attack
 Attack eli hyökkäys tarkoittaa sellaista luvatonta toimintaa, jolla pyritään pääsemään käsiksi aineistoon, jota sitten tuhotaan, paljastetaan muille, muutetaan, varastetaan tai katsellaan. Hyökkäys on myös sellainen toiminta, jossa jotakin resurssia tai omaisuutta käytetään tavalla, johon ei ole lupaa.
 
-### 3.31 information security incident 
+#### 3.31 information security incident 
 Epätoivottu tai odottamaton tietoturvatapahtuma, joka suurella todennäköisyydellä saattaa vaarantaa yrityksen toimintaa ja sen tietoturvaa.
 
-### 3.56 requirement 
+#### 3.56 requirement 
 Vaatimus eli sellainen odotus, joka on esimerkiksi erikseen mainittu dokumentaatiossa tai se voi muuten olla pakollinen. Voi myös olla yrityksen ja muiden osapuolten kannalta yleisesti tiedossa tai tapana, että tällainen vaatimus on olemassa.
 
-### 3.58 review
+#### 3.58 review
 Toiminta, jolla arvioidaan jonkin asian sopivuus, riittävyys ja tehokkuus kyseisen asian tavoitteiden täyttämiseksi.
 
-### 3.77 vulnerability
+#### 3.77 vulnerability
 Haavoittuvuus eli sellainen ominaisuuden tai kontrollin heikkous, jota voidaan hyväksikäyttää.
 
      
-## b)  Tutustu standardiin ISO 27034-1 - 5. Selvitä mistä standardi kokonaisuudesta on kyse.
+### b)  Tutustu standardiin ISO 27034-1 - 5. Selvitä mistä standardi kokonaisuudesta on kyse.
 Standari käsittelee sovellusten turvallisuutta: se auttaa organisaatioita integroimaan turvallisuuden ohjelmiston koko elinkaaren ajan. Sisältää muun muassa prosessit, turvallisuusvaatimukset ja riskien arvioinnin.
 
-## c) Kuuntele Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä  
+### c) Kuuntele Podcast: Laatulöpinät 30: Tietoturvallisuus ohjelmistokehityksessä  
 
 _https://www.arter.fi/podcast/laatulopinat-podcast-tietoturvallisuus-ohjelmistokehityksessa-tarkastele-kokonaisuutta-ja-hyodynna-viitekehykset/
 Mieti mitä podcastin väittämistä?_
@@ -54,7 +54,7 @@ Oma pohdinta: Olen samaa mieltä siitä, että toisaalta mitä kriittisimpiä ti
 Oma pohdinta: En ollut tällaista asiaa aiemmin ajatellut, ja oli mielenkiintoista kuulla ohjelmistokehittäjän mietteitä asiasta.
 
 
-##  4.  Tee itsellesi riskienhallintasuunnitelma.  
+###  4.  Tee itsellesi riskienhallintasuunnitelma.  
 
 _1. Suunnitelmassa pitää olla kuvaus ympäristöstä_  
 _2. Miten varmistat, että ympäristöön ei päästä tunkeutumaan ulkopuolisten toimesta_  
@@ -79,7 +79,7 @@ Mahdollisia riskejä: ajan vahingossa jotain haitallista isäntäköneessa, ulko
 
 Yleisesti:
 - varmista aina, että olet oikeassa ympäristössä
-- - älä klikkaa tai lataa mitään, mikä ei kuulu kurssin tehtäviin
+- älä klikkaa tai lataa mitään, mikä ei kuulu kurssin tehtäviin
 
 Toimenpiteet ulkoisia uhkia vastaan:  
 Isäntäkone  
