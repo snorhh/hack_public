@@ -3,7 +3,7 @@ ICI012AS3A-3002
 
 ## h1 Korkeat standardit (Lari)
 
-#### a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions.
+### a) Tutustu kurssin sanastoon, joka on määritelty SFS-EN ISO/IEC 27000:2020:en standardissa, kappaleessa 3. Terms and Definitions.
 _Selvitä seuraavien kappaleiden määritteet ja selitä omin sanoin mitä ne tarkoittavat 
 3.2, 3.31, 3.56, 3.58, 3.77_
 
