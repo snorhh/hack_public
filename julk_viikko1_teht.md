@@ -47,7 +47,7 @@ Oma pohdinta: Olen itsekin törmännyt tilanteeseen, jossa olin tehnyt salasanan
 
 5. __Ohjelmiston tietoturvan suunnitteluun vaikuttaa paljolti se, kuinka arkaluonteisia tietoja sillä on tarkoitus käsitellä__
 
-Oma pohdinta: Olen samaa mieltä siitä, että toisaalta mitä kriittisimpiä tietoja säilytetään, niin sitä enemmän vaatimuksia ohjelmistolle on, mutta toisaalta kaikkien ohjelmistojen tulee olla sen verran tietoturvallisia, ettei niitä nyt ihan kuka tahansa hakkeroi.
+Oma pohdinta: Olen samaa mieltä siitä, että toisaalta mitä kriittisimpiä tietoja säilytetään, niin sitä enemmän vaatimuksia ohjelmistolle on, mutta toisaalta kaikkien ohjelmistojen tulee olla sen verran tietoturvallisia, ettei niiden käyttöä ja tietoturvaa pysty vaarantamaan heppoisesti joko pahantahtoinen hyökkääjä tai hyväntahtoinen käyttäjä esimerkiksi vahingossa.
 
 6. __Ohjelmistokehittäjät näkevät omat ohjelmistonsa aina riskialttiimpina kuin muiden tekemät ohjelmistot__
 
