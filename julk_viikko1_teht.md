@@ -58,7 +58,7 @@ Oma pohdinta: En ollut tällaista asiaa aiemmin ajatellut, ja oli mielenkiintois
 
 _1. Suunnitelmassa pitää olla kuvaus ympäristöstä_  
 _2. Miten varmistat, että ympäristöön ei päästä tunkeutumaan ulkopuolisten toimesta_  
-_3. Jos tutkit ympäristössä epäilyttäviä tiedostoja niin miten varmistat sen, että mahdolliset haittaohjelmat eivät pääse leviämään ympäristön ylkopuolelle._  
+_3. Jos tutkit ympäristössä epäilyttäviä tiedostoja niin miten varmistat sen, että mahdolliset haittaohjelmat eivät pääse leviämään ympäristön ulkopuolelle._  
 
 Ympäristö:  
 __Isäntäkone__  
@@ -75,7 +75,7 @@ __Kali Linux__
 Pre-Made Kali VirtualBox VM  
 https://www.kali.org/get-kali/#kali-virtual-machines  
 
-Mahdollisia riskejä: ajan vahingossa jotain haitallista isäntäköneessa, ulkopuolinen hyökkäys, malware tai muu leviää virtuaaliympäristöstä isäntäkoneeseen.
+Mahdollisia riskejä: ajan vahingossa jotain haitallista isäntäköneessa, ulkopuolinen hyökkäys, malware tai muu leviää virtuaaliympäristöstä isäntäkoneeseen/internetiin.
 
 Yleisesti:
 - varmista aina, että olet oikeassa ympäristössä
