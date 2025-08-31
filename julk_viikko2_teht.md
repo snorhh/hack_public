@@ -70,7 +70,7 @@ Olin ollut siinä uskossa, että kirjoittamalla tekstin Inspector-ikkunan value-
 ### b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii. 
 Aikaa oli enää vähän, mutta päätin vielä vilkaista koodia ennen kuin lunttaan valmiista ratkaisusta. Koodissa näkyi todennäköinen ongelma, eli kohta "sql = "SELECT password FROM pins WHERE pin='"+pin+"';" Siinä siis pin otetaan suoraan lomakkeelta, ja kun siihen saa oikeanlaisen SQL-lausekkeen, niin ohjelma suorittaa sen sellaisenaan. 
 
-Googlailin SQLAlchemya, mutta en uskonut ehtiväni yrittää mitään varteenotettavaa ratkaisua, joten jätin sen tekemättä. Tutkailin valmista vastausta, jossa oli tehty toinen muuttuja "sanitoimaan" käyttäjän syöttämä pin-koodi. Pyysin ChatGPT:tä selittämään, ja ilmeisesti siinä siis tehdään niin, että SQLAlchemy-kirjaston avulla ei lähetetäkään yhtä lausetta sellaisenaan tietokantaan, vaan erikseen kyselyn rakenne ja parametrien arvot. Näin siis SQL-injektio ei toimi, koska syötettä ei käsitellä SLQ-lausekkeena.
+Googlailin SQLAlchemya, mutta en uskonut ehtiväni yrittää mitään varteenotettavaa ratkaisua, joten jätin sen tekemättä. Tutkailin valmista vastausta, jossa oli tehty toinen muuttuja "sanitoimaan" käyttäjän syöttämä pin-koodi. Pyysin ChatGPT:tä selittämään, ja ilmeisesti siinä siis tehdään niin, että SQLAlchemy-kirjaston avulla ei lähetetäkään yhtä lausetta sellaisenaan tietokantaan, vaan erikseen kyselyn rakenne ja parametrien arvot. Näin siis SQL-injektio ei toimi, koska syötettä ei käsitellä SQL-lausekkeena.
 
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
 https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
