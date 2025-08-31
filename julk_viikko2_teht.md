@@ -31,6 +31,21 @@ https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 ### a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
 https://terokarvinen.com/hack-n-fix/
 
+Ympäristö:  
+__Isäntäkone__  
+11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (2.69 GHz)  
+RAM 16,0 GB  
+Windows 11 Home Version 24H2  
+
+__Virtuaalikone__  
+Oracle VirtualBox   
+VirtualBox Graphical User Interface  
+Version 7.1.12 r169651 (Qt6.5.3)  
+
+__Kali Linux__    
+Pre-Made Kali VirtualBox VM  
+https://www.kali.org/get-kali/#kali-virtual-machines 
+
 Ihan aluksi suoritin ``sudo apt update`` ja ``sudo apt upgrade``-komennot. Laitoin Malwarebytes-ohjelman pois päältä, koska se esti tietyn mirror-sivun käytön, eli sieltä ei lataukset onnistuneet. Sitten kun upgreidaus alkoi lopulta pyöriä, niin isäntäkoneen Firefox jämähti, ja jouduin laittamaan sen kiinni Task  Managerista. Onneksi olin alkanut kirjoittaa muistiinpanoja Githubin sijasta Notepadiin, jota tallensin pilveen.
 
 Koska käytän Kalia, niin monet ohjeissa mainitut ohjelmat olivat jo valmiina installoituna. Huomasin myös, että kuvakaappausten tekeminen oli kätevää, eli tarvitsi vain painaa läppärin PrtSc-näppäintä, ja kuva tallentui suoraan Kalin Pictures-kansioon.
