@@ -101,9 +101,11 @@ https://terokarvinen.com/hack-n-fix/
 
 Kalissa oli valmiina installoituna virtualenv ja django, joten menin oikeaan kansioon ja aktivoin virtualenvin.  Laitoin netin pois päältä, siirryin vielä kansioon logtin ja käynnistin palvelimen komennolla ``./manage.py runserver``. Osoitteessa http://127.0.0.1:8000/, näkyi nyt teksti Hello! ja kaksi nappia.
 
-Fuzzasin sivun ffufilla. Filtteriksi laitoin yhdeksän sanaa, ja sillä löytyi mielenkiintoiselta sivu admin-console. Tämän pidemmälle en kyllä sitten päässytkään, koska aika loppui. Katsoin sitten malliratkaisusta, eli rekisteröin tunnuksen, ja sillä pääsin suoraan kyseiselle admin-console-sivulle, kun laitoin sen osoitteeksi. 
+Fuzzasin sivun ffufilla. Filtteriksi laitoin yhdeksän sanaa, ja sillä löytyi mielenkiintoiselta sivu admin-console. Tämän pidemmälle en kyllä sitten päässytkään, koska aika loppui. 
 
 ![Screen1](v2screen7.png) 
+
+Katsoin sitten malliratkaisusta, eli rekisteröin tunnuksen, ja sillä pääsin suoraan kyseiselle admin-console-sivulle, kun laitoin sen osoitteeksi. 
 
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
 Tätä en tehnyt lainkaan, koska olin jo vilkaissut sen ratkaisua.
