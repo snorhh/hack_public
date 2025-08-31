@@ -62,7 +62,7 @@ Kokeilin ohjeen mukaan laittaa PIN-koodiksi "123", ja sivusto näytti, että sal
 
 Kokeilin erilaisilla numeroyhdistelmillä, joista tuli vain vastaukseksi "not found". Jos yritin laittaa PIN-koodiksi jotain muuta kuin numeron, esimerkiksi 123'--, sain ilmoituksen, että kenttään pitää laittaa numero.
 
-Tehtävän ohjeissa kerrottiin, että kyseinen SQL-lauseke on _SELECT password FROM pins WHERE pin ='123'_. Pohdin, että mahdollisia tapoja saada selville haluttu salasana saattaisi olla joko tulostaa kaikki salasanat, tai saada tulostettua vain sellainen salasana, joka sisältää stringin SUPERADMIN, joka oli mainittu ohjeissa.
+Tehtävän ohjeissa kerrottiin, että kyseinen SQL-lauseke on _SELECT password FROM pins WHERE pin ='123'_. Pohdin, että mahdollisia tapoja saada selville haluttu salasana saattaisi olla joko tulostaa kaikki salasanat, tai saada tulostettua vain sellainen salasana, joka sisältää stringin SUPER, joka oli mainittu ohjeissa.
 
 Katsoin webbisivun lähdekoodia, mutta en nähnyt siellä mitään mikä olisi auttanut. Mietin, että mitä jos yrittäisin käyttää tunnilla tehtyä esimerkkiä, jossa sivun html-sisältöä voi muokata Inspector-ikkunassa.
 
@@ -72,7 +72,7 @@ Ainakin pystyin sitä kautta laittamaan tyhjään kenttään PIN-koodin 123 ja s
 
 Jos laitoin numeroiden perään joitakin muita merkkejä, niin en saanut ruudulla valitusta siitä, että kenttään pitää laittaa vain numeroita. Jos sitten klikkasin "Reveal my password" -nappia, niin laittamani numerot+merkit katosivat kentästä, toisin kuin silloin jos laitoin pelkkiä numeroita, jolloin ne jäivät kenttään. Vastauksena näkyi "not found", eli vaikutti kuin numerot+merkit olisivat menneet läpi, mutta en ollut siitä varma. 
 
-Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1=1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPERADMIN%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
+Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1=1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPER%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
 
 Yrittelin kaikenlaisia vaihtoehtoja. Jälkikäteen ajateltuna järkevintä olisi ollut ihan ensin selvittää enemmän SQL-lausekkeista ja etenkin siitä, että missä muodossa ne pitäisi syöttää kenttään, että ne mahdollisesti menisivät oikeassa muodossa eteenpäin. Enimmäkseen vain näpyttelin kaikenlaisia vaihtoehtoja, ja todennäköisesti samoja vaihtoehtoja monta kertaa. 
 
@@ -104,7 +104,7 @@ Suoritin ffufin komennolla ``ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ``.
 
 Tuloksissa näkyi, että joidenkin sivujen koko oli erilainen, ja niissä oli eri määrä sanoja tai rivejä.  Filtteröin tuloksia pituuden mukaan, ja koska 154 oli yleinen pituus, niin käytin sitä filtteriehtona. ``ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154``
 
-Sillä tuli lyhyt lista, jossa komeili wp-admin, jonka curlasin ja katsoin myös selaimessa, eli kohde oli löytynyt.
+Sillä tuli lyhyt lista, jossa komeili wp-, jonka curlasin ja katsoin myös selaimessa, eli kohde oli löytynyt.
 
 ![Screen1](v2screen4.png) 
 
@@ -116,7 +116,7 @@ https://terokarvinen.com/hack-n-fix/
 
 Kalissa oli valmiina installoituna virtualenv ja django, joten menin oikeaan kansioon ja aktivoin virtualenvin.  Laitoin netin pois päältä, siirryin vielä kansioon logtin ja käynnistin palvelimen komennolla ``./manage.py runserver``. Osoitteessa http://127.0.0.1:8000/, näkyi nyt teksti Hello! ja kaksi nappia.
 
-Fuzzasin sivun ffufilla. Filtteriksi laitoin yhdeksän sanaa, ja sillä löytyi mielenkiintoiselta sivu admin-console. Tämän pidemmälle en kyllä sitten päässytkään, koska aika loppui. 
+Fuzzasin sivun ffufilla. Filtteriksi laitoin yhdeksän sanaa, ja sillä löytyi mielenkiintoiselta vaikuttava sivu admin-console. Tämän pidemmälle en kyllä sitten päässytkään, koska aika loppui. 
 
 ![Screen1](v2screen7.png) 
 
