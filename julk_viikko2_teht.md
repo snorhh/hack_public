@@ -33,7 +33,7 @@ https://terokarvinen.com/hack-n-fix/
 
 Ihan aluksi suoritin ``sudo apt update`` ja ``sudo apt upgrade``-komennot. Laitoin Malwarebytes-ohjelman pois päältä, koska se esti tietyn mirror-sivun käytön, eli sieltä ei lataukset onnistuneet. Sitten kun upgreidaus alkoi lopulta pyöriä, niin isäntäkoneen Firefox jämähti, ja jouduin laittamaan sen kiinni Task  Managerista. Onneksi olin alkanut kirjoittaa muistiinpanoja Githubin sijasta Notepadiin, jota tallensin pilveen.
 
-Koska käytän Kalia, niin monet ohjeissa mainitut ohjelmat olivat jo valmiina installoituna. Huomasin myös, että kuvakaappausten tekeminen oli kätevää, eli tarvitsi vain painaa läppärin PrtSc-nappia, ja kuva tallentui suoraan Kalin Pictures-kansioon.
+Koska käytän Kalia, niin monet ohjeissa mainitut ohjelmat olivat jo valmiina installoituna. Huomasin myös, että kuvakaappausten tekeminen oli kätevää, eli tarvitsi vain painaa läppärin PrtSc-näppäintä, ja kuva tallentui suoraan Kalin Pictures-kansioon.
 
 Tein kansion, johon latasin ja unzippasin tehtävätiedoston ``wget https://terokarvinen.com/hack-n-fix/teros-challenges.zip`` &  ``unzip teros-challenges.zip``.
 
