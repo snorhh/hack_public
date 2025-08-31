@@ -57,7 +57,7 @@ Ainakin pystyin sitä kautta laittamaan tyhjään kenttään PIN-koodin 123 ja s
 
 Jos laitoin numeroiden perään joitakin muita merkkejä, niin en saanut ruudulla valitusta siitä, että kenttään pitää laittaa vain numeroita. Jos sitten klikkasin "Reveal my password" -nappia, niin laittamani numerot+merkit katosivat kentästä, toisin kuin silloin jos laitoin pelkkiä numeroita, jolloin ne jäivät kenttään. Vastauksena näkyi "not found", eli vaikutti kuin numerot+merkit olisivat menneet läpi, mutta en ollut siitä varma. 
 
-Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1+1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPERADMIN%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
+Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1=1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPERADMIN%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
 
 Yrittelin kaikenlaisia vaihtoehtoja. Jälkikäteen ajateltuna järkevintä olisi ollut ihan ensin selvittää enemmän SQL-lausekkeista ja etenkin siitä, että missä muodossa ne pitäisi syöttää kenttään, että ne mahdollisesti menisivät oikeassa muodossa eteenpäin. Enimmäkseen vain näpyttelin kaikenlaisia vaihtoehtoja, ja todennäköisesti samoja vaihtoehtoja monta kertaa. 
 
