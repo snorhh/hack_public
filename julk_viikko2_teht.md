@@ -62,7 +62,7 @@ Kokeilin ohjeen mukaan laittaa PIN-koodiksi "123", ja sivusto näytti, että sal
 
 Kokeilin erilaisilla numeroyhdistelmillä, joista tuli vain vastaukseksi "not found". Jos yritin laittaa PIN-koodiksi jotain muuta kuin numeron, esimerkiksi 123'--, sain ilmoituksen, että kenttään pitää laittaa numero.
 
-Tehtävän ohjeissa kerrottiin, että kyseinen SQL-lauseke on _SELECT password FROM pins WHERE pin ='123'_. Pohdin, että mahdollisia tapoja saada selville haluttu salasana saattaisi olla joko tulostaa kaikki salasanat, tai saada tulostettua vain sellainen salasana, joka sisältää stringin SUPER, joka oli mainittu ohjeissa.
+Tehtävän ohjeissa kerrottiin, että kyseinen SQL-lauseke on _SELECT password FROM pins WHERE pin ='123'_. Pohdin, että mahdollisia tapoja saada selville haluttu salasana saattaisi olla joko tulostaa kaikki salasanat, tai saada tulostettua vain sellainen salasana, joka sisältää stringin SUPERADMIN, joka oli mainittu ohjeissa.
 
 Katsoin webbisivun lähdekoodia, mutta en nähnyt siellä mitään mikä olisi auttanut. Mietin, että mitä jos yrittäisin käyttää tunnilla tehtyä esimerkkiä, jossa sivun html-sisältöä voi muokata Inspector-ikkunassa.
 
@@ -72,7 +72,7 @@ Ainakin pystyin sitä kautta laittamaan tyhjään kenttään PIN-koodin 123 ja s
 
 Jos laitoin numeroiden perään joitakin muita merkkejä, niin en saanut ruudulla valitusta siitä, että kenttään pitää laittaa vain numeroita. Jos sitten klikkasin "Reveal my password" -nappia, niin laittamani numerot+merkit katosivat kentästä, toisin kuin silloin jos laitoin pelkkiä numeroita, jolloin ne jäivät kenttään. Vastauksena näkyi "not found", eli vaikutti kuin numerot+merkit olisivat menneet läpi, mutta en ollut siitä varma. 
 
-Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1=1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPER%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
+Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1=1 tai true OR true. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPERADMIN%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
 
 Yrittelin kaikenlaisia vaihtoehtoja. Jälkikäteen ajateltuna järkevintä olisi ollut ihan ensin selvittää enemmän SQL-lausekkeista ja etenkin siitä, että missä muodossa ne pitäisi syöttää kenttään, että ne mahdollisesti menisivät oikeassa muodossa eteenpäin. Enimmäkseen vain näpyttelin kaikenlaisia vaihtoehtoja, ja todennäköisesti samoja vaihtoehtoja monta kertaa. 
 
