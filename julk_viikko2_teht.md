@@ -104,7 +104,7 @@ Suoritin ffufin komennolla ``ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ``.
 
 Tuloksissa näkyi, että joidenkin sivujen koko oli erilainen, ja niissä oli eri määrä sanoja tai rivejä.  Filtteröin tuloksia pituuden mukaan, ja koska 154 oli yleinen pituus, niin käytin sitä filtteriehtona. ``ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154``
 
-Sillä tuli lyhyt lista, jossa komeili wp-, jonka curlasin ja katsoin myös selaimessa, eli kohde oli löytynyt.
+Sillä tuli lyhyt lista, jossa komeili wp-admin, jonka curlasin ja katsoin myös selaimessa, eli kohde oli löytynyt.
 
 ![Screen1](v2screen4.png) 
 
