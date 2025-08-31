@@ -51,11 +51,11 @@ Tehtävän ohjeissa kerrottiin, että kyseinen SQL-lauseke on _SELECT password F
 
 Katsoin webbisivun lähdekoodia, mutta en nähnyt siellä mitään mikä olisi auttanut. Mietin, että mitä jos yrittäisin käyttää tunnilla tehtyä esimerkkiä, jossa sivun html-sisältöä voi muokata Inspector-ikkunassa.
 
-Ainakin pystyin sitä kautta laittamaan tyhjään kenttään PIN-koodin 123 ja sitten klikkaaman "Reveal password" -nappia. 
+Ainakin pystyin sitä kautta laittamaan tyhjään kenttään PIN-koodin 123 ja sitten klikkaaman "Reveal my password" -nappia. 
 
 ![Screen1](v2_screen2.png) 
 
-Jos laitoin numeroiden perään joitakin muita merkkejä, niin en saanut ruudulla valitusta siitä, että kenttään pitää laittaa vain numeroita. Jos sitten klikkasin "Reveal password" -nappia, niin laittamani numerot+merkit katosivat kentästä, toisin kuin silloin jos laitoin pelkkiä numeroita, jolloin ne jäivät kenttään. Vastauksena näkyi "not found", eli vaikutti kuin numerot+merkit olisivat menneet läpi, mutta en ollut siitä varma. 
+Jos laitoin numeroiden perään joitakin muita merkkejä, niin en saanut ruudulla valitusta siitä, että kenttään pitää laittaa vain numeroita. Jos sitten klikkasin "Reveal my password" -nappia, niin laittamani numerot+merkit katosivat kentästä, toisin kuin silloin jos laitoin pelkkiä numeroita, jolloin ne jäivät kenttään. Vastauksena näkyi "not found", eli vaikutti kuin numerot+merkit olisivat menneet läpi, mutta en ollut siitä varma. 
 
 Kohdelause oli siis _SELECT password FROM pins WHERE pin ='123'_. Mietin, jos sitä voisi muuttaa niin, että lisää WHERE-lausekkeeseen sellaisen ehdon, että se on aina totta, esim 1+1 tai TRUE or TRUE. Tai jos siihen saisi lisättyä ehdon salasanalle, esimerkiksi "password LIKE '%SUPERADMIN%'. En tosin voinut tietää, onko tietokannassa edes kenttää "password". 
 
