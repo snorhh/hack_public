@@ -63,7 +63,7 @@ Yrittelin kaikenlaisia vaihtoehtoja. Jälkikäteen ajateltuna järkevintä olisi
 
 #### Walkthrough - jep  
 Tehtävän ratkaisu aiemmalta kurssilta: Robin Niinemets 2024,  https://askdatdude.github.io/diary/entries/diary.html?entry=SH24-002&week=  
-Seuraavana päivänä, kun en uskonut että pystyisin suorittamaan tehtäviä ilman isoja apuja, niin päätin katsoa valmista ratkaisua. Heti alussa näkyikin keino, johon oli viitattu vinkeissä, mutta jota en ollut ymmärtänyt itse kokeilla. Eli kun sivun lomake valitti siitä, että kenttään pitää laittaa numero, niin jos sen vaihtoi Inspector-ikkunassa kohdassa _input type="number"_ tyhjäksi, niin lomake ei sitten tarkistanutkaan syötteen laatua. 
+Seuraavana päivänä, kun en uskonut, että ehtisin/pystyisin suorittamaan tehtäviä ilman isoja apuja, niin päätin katsoa valmista ratkaisua. Heti alussa näkyikin keino, johon oli viitattu vinkeissä, mutta jota en ollut ymmärtänyt itse kokeilla. Eli kun sivun lomake valitti siitä, että kenttään pitää laittaa numero, niin jos sen vaihtoi Inspector-ikkunassa kohdassa _input type="number"_ tyhjäksi, niin lomake ei sitten tarkistanutkaan syötteen laatua. 
 
 Olin ollut siinä uskossa, että kirjoittamalla tekstin Inspector-ikkunan value-kohtaan olin pystynyt ohittamaan tuon tarkistuksen, mutta tosiasiassa testini eivät siis menneet läpi. Tarkistin tämän vielä lopuksi yrittämällä laittaa malliratkaisun SQL-lausekkeen value-kohtaan poistamatta "number"-rajoitetta, eikä se toiminut, toisin kuin malliratkaisun mukaan tehtynä.
 
