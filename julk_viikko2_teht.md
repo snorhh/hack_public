@@ -126,5 +126,6 @@ Ensimmäisellä kikalla sivusto siis näytti lahjat ja myös "unreleased" lahjat
 Myöhemmin kun kokeilin samaa labratehtävää uudelleen, niin nyt sivulla näkyikin Gifts eikä Corporate Gifts. Sivusto käyttäytyi samalla tavalla, eli ensimmäisellä kikalla se näytti yhden lahjan lisää, ja toisella kaikki tuotteet, ja vasta toinen tapa ratkaisi labran.
 
 #### h) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability allowing login bypass"
+https://portswigger.net/web-security/sql-injection/lab-login-bypass
 
 Menin kohtaan "My account". Siitä pääsin login-sivulle, jossa piti laittaa käyttäjänimi ja salasana. Olin lukenut sivun https://portswigger.net/web-security/sql-injection, jossa suoraan annettiin kyseinen kikka, eli laitoin käyttäjänimen kohdalle _administrator'--_. Laitoin salasanaksi jotain satunnaista siltä varalta, että siihen ei voisi jättää tyhjää salasanaa. Painoin login-nappia, ja labra ilmoitti, että tehtävä on suoritettu onnistuneesti.
