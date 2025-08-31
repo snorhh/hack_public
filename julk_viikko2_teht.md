@@ -110,7 +110,7 @@ Katsoin sitten malliratkaisusta, eli rekisteröin tunnuksen, ja sillä pääsin 
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
 Tätä en tehnyt lainkaan, koska olin jo vilkaissut sen ratkaisua.
 
-#### g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
+### g) Vapaaehtoinen. Johdantotehtävä, joka auttaa 010-staff-only ratkaisemisessa. Ratkaise Portswigger Academyn "Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data".
 https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
 
 Labratehtävässä piti tehdä SQL-injektiohyökkäys, jolla sovellus näyttää yhden tai useamman "unreleased" tuotteen. Tehtävässä oli annettu SQL-komento _SELECT * FROM products WHERE category = 'Gifts' AND released = 1_, jolla sovellus hakee kategorian, kun käyttäjä valitsee sen. 
