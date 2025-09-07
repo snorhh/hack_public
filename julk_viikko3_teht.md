@@ -1,15 +1,15 @@
 ## h3 No strings attached (Tero)
-Ympäristö:
-11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (2.69 GHz)
-RAM 16,0 GB
-Windows 11 Home Version 24H2
+Ympäristö:  
+11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (2.69 GHz)  
+RAM 16,0 GB  
+Windows 11 Home Version 24H2  
 
-Oracle VirtualBox
-VirtualBox Graphical User Interface
-Version 7.1.12 r169651 (Qt6.5.3)
+Oracle VirtualBox  
+VirtualBox Graphical User Interface  
+Version 7.1.12 r169651 (Qt6.5.3  
 
-Kali Linux
-Pre-Made Kali VirtualBox VM
+Kali Linux  
+Pre-Made Kali VirtualBox VM  
 
 Tehtävät: https://terokarvinen.com/sovellusten-hakkerointi/#h3-no-strings-attached-tero
 
