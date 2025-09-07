@@ -50,7 +50,7 @@ Packd-ohjelman toiminta vaikutti samanlaiselta kuin ensimmäisen tehtävän pass
 
 Tein saman kuin ensimmäisen tehtävän kohdalla, eli katsoin strings-työkalulla, mitä binäärikoodista saisi irti.
 
-Stringsillä näkyi samalla tavalla "What's the password?", mutta seuraavat rivit eivät olleetkaan yhtä selkeitä kuin ensimmäisessä tehtävässä (lipun kohta on "tyhjennetty"):
+Stringsillä näkyi samalla tavalla "What's the password?", mutta seuraavat rivit eivät olleetkaan yhtä selkeitä kuin ensimmäisessä tehtävässä (lipun kohta on tässä "tyhjennetty"):
 
 ```
 What's the password?
