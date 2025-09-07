@@ -6,7 +6,7 @@ Windows 11 Home Version 24H2
 
 Oracle VirtualBox  
 VirtualBox Graphical User Interface  
-Version 7.1.12 r169651 (Qt6.5.3  
+Version 7.1.12 r169651 (Qt6.5.3)  
 
 Kali Linux  
 Pre-Made Kali VirtualBox VM  
