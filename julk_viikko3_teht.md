@@ -30,7 +30,7 @@ FLAG{Tero-d75ee66af0a68663f15539ec0f46e3b1}
   
 ### b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
 
-Etsin tietoa obfuskoinnista ja mietin esimerkiksi Caeaser Cipher -metodia (https://www.geeksforgeeks.org/ethical-hacking/caesar-cipher-in-cryptography/), jolla salasanan saisi "sekoitettua" niin, että salasana ei näy suoraan binäärikoodista. Tai jos siihen pystyisi käyttämään define-sanaa jotenkin niin, että salasana ei näkyisi itse koodissa. (https://www.techonthenet.com/c_language/constants/create_define.php).
+Etsin tietoa obfuskoinnista ja mietin esimerkiksi Caesar Cipher -metodia (https://www.geeksforgeeks.org/ethical-hacking/caesar-cipher-in-cryptography/), jolla salasanan saisi "sekoitettua" niin, että salasana ei näy suoraan binäärikoodista. Tai jos siihen pystyisi käyttämään define-sanaa jotenkin niin, että salasana ei näkyisi itse koodissa. (https://www.techonthenet.com/c_language/constants/create_define.php).
 
 Pidin pidemmän tauon, ja tauon jälkeen päätin tehdä yksinkertaisen version, jossa käyttäjän antama salasana käännetään takaperin, ja sitä verrataan oikean salasanan takaperoiseen muotoon. Käytin valmista koodia, jonka löysin sivulta https://www.geeksforgeeks.org/c/reverse-string-in-c/.
 
