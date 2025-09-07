@@ -34,7 +34,7 @@ Etsin tietoa obfuskoinnista ja mietin esimerkiksi Caesar Cipher -metodia (https:
 
 Pidin pidemmän tauon, ja tauon jälkeen päätin tehdä yksinkertaisen version, jossa käyttäjän antama salasana käännetään takaperin, ja sitä verrataan oikean salasanan takaperoiseen muotoon. Käytin valmista koodia, jonka löysin sivulta https://www.geeksforgeeks.org/c/reverse-string-in-c/.
 
-Käyttäjän antama salasana siis käännetään takaperin, ja käännettyä versiota verrataan takaperoiseen salasanaan "123-irekkah-alas". Ei kovin kummoinen obfuskointi, mutta vaikeammalla salasanalla sitä olisi ainakin hitusen vaikeampi suoraan huomata.
+Käyttäjän antama salasana siis käännetään takaperin, ja käännettyä versiota verrataan takaperoiseen salasanaan "123-irekkah-alas". Ei kovin kummoinen obfuskointi, mutta monimutkaisemmalla salasanalla sitä olisi ainakin hitusen vaikeampi suoraan huomata.
 
 ![Screenshot 1](h3_rev.png)
 
