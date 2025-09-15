@@ -54,7 +54,7 @@ https://www.geeksforgeeks.org/c/scanf-in-c/ )
 
 ### c) Jos väärinpäin. Muokkaa passtr-ohjelman binääriä (ilman alkuperäistä lähdekoodia) niin, että se hyväksyy kaikki salasanat paitsi oikean. Osoita testein, että ohjelma toimii. ezbin-challenges.zip
 
-Latasin passtr-binääri Ghidraan, ja etsin pääohjelman, jonka Ghidra olikin nimennyt main-funktioksi. 
+Latasin passtr-binäärin Ghidraan ja etsin pääohjelman, jonka Ghidra olikin nimennyt main-funktioksi. 
 
 Etsin assembly-ikkunasta kohdan, jossa oli JNZ, ja muutin siihen JZ. Näin tehtyäni decompiler-ikkunassa näkyi, että koodi oli muuttunut niin, että if-else-rakenteen tarkistamien ehtojen lopputulokset kääntyivät päinvastaisiksi.
 
