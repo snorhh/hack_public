@@ -6,7 +6,7 @@ Hammond 2022: https://www.youtube.com/watch?v=oTD_ki86c9I Ghidra for Reverse Eng
 - videossa esitellään joitakin käänteismallintamisen työkaluja
 - ltracella voi etsiä kirjastokutsuja ja stracella joitakin muita kutsuja tiedoston koodista
 - obdjump-työkalulla voi myös vilkaista koodia ennen kuin käyttää monimutkaisempaa kuten esim. Ghidra
-- Ghidra tekee binääristä lähdekoodin tyyppistä koodia ja näyttää myös assembly-koodin, joista voi yrittää selvittää ohjelman toimintaan
+- Ghidra tekee binääristä lähdekoodin tyyppistä koodia ja näyttää myös assembly-koodin, joista voi yrittää selvittää ohjelman toimintaa
 - Ghidra muun muassa erottelee funktiot toisistaan 
 
 
