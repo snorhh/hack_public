@@ -33,7 +33,7 @@ Latasin tiedoston uudelleen Ghidraan, ja pääohjelma löytyi helposti.
 
 ![Screenshot](h4_alkup.png)
 
-Muutin muuttujien nimet suoraan Decompile-ikkunassa.
+Muutin muuttujien nimet suoraan Decompile-ikkunassa. YouTube-videon ohjeiden avulla sain myös muutettua DAT_0010201d-nimisen muuttujan scanf-funktion muuttujaksi "%19s" https://www.youtube.com/watch?v=m73pHO_0vhI
 
 ![Screenshot](packd_rn.png)
 
