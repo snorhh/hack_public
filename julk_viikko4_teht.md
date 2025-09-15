@@ -112,7 +112,7 @@ Ohjelma ei siis huomioinut koko salasanaa. Muistelin, että merkillä \ voi kood
 
 Tämän ohjelman koodi näytti monimutkaisemmalta kuin edellisten. Yritin selvittää koodissa näkyviä *-kohtia, jotka ilmeisesti ovat "pointtereita", jotka osoittavat muuttujiin. En päässyt kovin syvälle ymmärryksen tasolle niiden kanssa. (https://www.geeksforgeeks.org/c/c-pointer-to-pointer-double-pointer/)
 
-Mutta tässä koodissa niistä ei kai tarvitse edes välittää, vaan tärkein kohta koodissa on rivillä 12 eli `"password1[local_c] + -1 !=`. Eli siinä tarkistetaan, että jos password-jotain ei ole sitä mihin verrataan, niin tulostetaan että salasana on väärin.
+Mutta tässä koodissa niistä ei kai tarvitse edes välittää, vaan tärkein kohta koodissa on rivillä 12 eli `"password1"[local_c] + -1 !=`. Eli siinä tarkistetaan, että jos password-jotain ei ole sitä mihin verrataan, niin tulostetaan että salasana on väärin.
 
 ![Screenshot](h4_cror.png)
 
