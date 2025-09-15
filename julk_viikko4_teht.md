@@ -130,8 +130,8 @@ Muutin Decompile-ikkunassa muuttujien nimet selkeämpään muotoon.
 
 Ohjelman toiminta:    
 2: int params - tässä ohjelmalle annetaan parametrien määrä. Kun parametrejä on kaksi, se tarkoittaa että komentorivillä on annettu ohjelman nimi ja yksi parametri, eli tässä ohjelmassa salasana   
-long givenPassword - tässä annetaan pointteri argumenttiin eli annettuun salasanaan (Lähde: https://www.montana.edu/rmaher/ee475_fl04/Command_line.pdf )
-8. if-lauseessa tarkistetaan, annettiinko parametrejä kaksi, mikä on ohjelman toimimisen edelletys  
+long givenPassword - tässä annetaan pointteri argumenttiin eli annettuun salasanaan (Lähde: https://www.montana.edu/rmaher/ee475_fl04/Command_line.pdf )  
+8. if-lauseessa tarkistetaan, annettiinko parametrejä kaksi, mikä on ohjelman toimimisen edelletys    
 9. for-silmukan avulla käydään läpi annettu salasana merkki merkiltä, eli aloitetaan nollasta ja jatketaan niin kauan, kunnes tullaan lopetusmerkkiin \0  
 11. toisessa if-lauseessa verrataan jokaista käyttäjän antamaa salasanaa oikeaan salasanaan, mutta ei suoraan, vaan niin että oikean salasanan n:s merkki muutetaan merkiksi ennen kyseistä merkkiä, ja verrataan sitten sitä samassa kohdassa olevaan merkkiin käyttäjän antamassa salasanassa.   
 12. Jos if-lause ei ollut totta, niin ohjelma loppuu ja tulostetaan tieto siitä, että salasana ei ollut oikea (koska tässä siis verrattiin sitä, että salasanat eivät täsmää eli !=  
