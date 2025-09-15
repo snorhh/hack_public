@@ -124,7 +124,7 @@ Pähkimisen sijasta olisi kannattanut yrittää oikeasti selvittää asiaa esime
 
 Oikea salasana oli siis sellainen, jossa jokaista "password1" sanan merkkiä muutettiin ASCII-listalla yhden merkin verran vasemmalle.
 
-![Screenshot](h4_cror.png)
+![Screenshot](h4_c2ok.png)
 
 Muutin Decompile-ikkunassa muuttujien nimet selkeämpään muotoon.
 
