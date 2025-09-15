@@ -23,7 +23,7 @@ __Ympäristö:__
 ### a) Asenna Ghidra.
 Ghidra asennettiin jo tunnilla.
 
-### b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujille kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. ezbin-challenges.zip
+### b) rever-C. Käänteismallinna packd-binääri C-kielelle Ghidralla. Etsi pääohjelma. Anna muuttujille kuvaavat nimet. Selitä ohjelman toiminta. Ratkaise tehtävä binääristä, ilman alkuperäistä lähdekoodia. 
 
 Latasin packd-binäärin Ghidraan, ja jonkin aikaa koodia ihmeteltyäni muistin, että tiedosto on pakattu. Suoritin komennon __upx -d packd__, ja aikaisemmin asentamani Upx-ohjelma palautti tiedoston pakkaamattomaan muotoon.
 
