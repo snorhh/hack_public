@@ -134,8 +134,8 @@ long givenPassword - tässä annetaan pointteri argumenttiin eli annettuun salas
 8. if-lauseessa tarkistetaan, annettiinko parametrejä kaksi, mikä on ohjelman toimimisen edelletys    
 9. for-silmukan avulla käydään läpi annettu salasana merkki merkiltä, eli aloitetaan nollasta ja jatketaan niin kauan, kunnes tullaan lopetusmerkkiin \0  
 11. toisessa if-lauseessa verrataan jokaista käyttäjän antamaa salasanaa oikeaan salasanaan, mutta ei suoraan, vaan niin että oikean salasanan n:s merkki muutetaan merkiksi ennen kyseistä merkkiä, ja verrataan sitten sitä samassa kohdassa olevaan merkkiin käyttäjän antamassa salasanassa.   
-12. Jos if-lause ei ollut totta, niin ohjelma loppuu ja tulostetaan tieto siitä, että salasana ei ollut oikea (koska tässä siis verrattiin sitä, että salasanat eivät täsmää eli !=  
-16. Muussa tapauksessa, eli jos salasana oli oikein, tulostetaan tieto, että se oli totta.  
+12. Jos if-lause ei ollut totta, niin ohjelma loppuu ja tulostetaan tieto siitä, että salasana ei ollut oikea (koska tässä siis verrattiin sitä, että salasanat eivät täsmää eli !=)  
+16. Muussa tapauksessa, eli jos salasana oli oikein, tulostetaan se tieto ruudulle   
 19. else-kohtaan päädytään, jos parametrejä ei ollut kaksi  
 23. Lopulta palautetaan int-tyyppinen muuttuja passCheck.  
 
