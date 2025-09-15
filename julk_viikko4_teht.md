@@ -137,7 +137,7 @@ long givenPassword - tässä annetaan pointteri argumenttiin eli annettuun salas
 12. Jos if-lause ei ollut totta, niin ohjelma loppuu ja tulostetaan tieto siitä, että salasana ei ollut oikea (koska tässä siis verrattiin sitä, että salasanat eivät täsmää eli !=)  
 16. Muussa tapauksessa, eli jos salasana oli oikein, tulostetaan se tieto ruudulle   
 19. else-kohtaan päädytään, jos parametrejä ei ollut kaksi  
-23. Lopulta palautetaan int-tyyppinen muuttuja passCheck.  
+23. Lopulta palautetaan int-tyyppinen muuttuja passCheck, ja main-funktion suoritus päättyy
 
 ![Screenshot](h4_vikaa.png)
 
