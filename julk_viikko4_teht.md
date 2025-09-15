@@ -122,12 +122,9 @@ Mutta tässä koodissa niistä ei kai tarvitse edes välittää, vaan tärkein k
 
 Pähkimisen sijasta olisi kannattanut yrittää oikeasti selvittää asiaa esimerkiksi googlaamalla. Lopulta kysyin ChatGPT:ltä, joka kertoi, että ennen a:ta on merkki "`". Se olisi löytynyt esimerkiksi tältä sivulta: https://www.eso.org/~ndelmott/ascii.html. 
 
-Oikea salasana oli siis sellainen, jossa jokaista "password1" sanan kirjain muutettiin ASCII-listalla yhden vasemmalle.
+Oikea salasana oli siis sellainen, jossa jokaista "password1" sanan merkkiä muutettiin ASCII-listalla yhden merkin verran vasemmalle.
 
 ![Screenshot](h4_cror.png)
-
-
-
 
 Muutin Decompile-ikkunassa muuttujien nimet selkeämpään muotoon.
 
