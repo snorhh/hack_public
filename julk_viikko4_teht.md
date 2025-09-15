@@ -42,7 +42,7 @@ Ohjelman toiminta riveittäin:
 6. char-tyyppinen taulukko userPassword, johon luetaan käyttäjän antama salasana  
 8. printataan ruudulle "What's the password?"  
 9. scanf-funktiolla luetaan annettu salasana  (Lähde: 
-https://www.geeksforgeeks.org/c/scanf-in-c/ )
+https://www.geeksforgeeks.org/c/scanf-in-c/ )  
 10. checkpassWord-muuttujaan talletetaan tulos strcmp-funktiosta. Funktio vertaa käyttäjän antamaa salasanaa userPassword oikeaan salasanaan "piilos-AnAnAs"  
 11. tarkistetaan if-lauseen ehto, eli jos funktio strcmp antoi tulokseksi nollan, se tarkoittaa että sen vertaamat stringit olivat samanlaiset.   
 12. Tulostetaan tieto, että salasana oli oikein  
