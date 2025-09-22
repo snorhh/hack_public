@@ -2,9 +2,9 @@
 
 ### a) Lab1. Tutkiminen mikä on ohjelmassa vialla ja miten se korjataan. 
 
-En syysflunssa takia päässyt luennolle, joten tutustuin debuggaukseen itsekseni. YouTubesta löytyi video, joka esitti graafisen tavan käydä läpi yhtä aikaa lähdekoodia että assemblyä. https://www.youtube.com/watch?v=Dq8l1_-QgAc
+En syysflunssan takia päässyt luennolle, joten tutustuin debuggaukseen itsekseni. YouTubesta löytyi mm. video, joka esitti graafisen tavan käydä läpi yhtä aikaa sekä lähdekoodia että assemblyä. https://www.youtube.com/watch?v=Dq8l1_-QgAc
 
-Katsoin Lab0:aa, joka oli ratkaistu tunnilla, ja siinä ilmeisesti oli bugi, minkä takia laskuri meni viimeisessä kohdassa nollaann
+Katsoin tunnilla ratkaistua Lab-tehtävää, jossa oli ilmeisesti laskuri, joka toimi bugin takia väärin.
 
 Latasin tehtävän Lab1, jossa oli sisällä sekä lähdekoodi että binääri. 
 
