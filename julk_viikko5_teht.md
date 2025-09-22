@@ -57,7 +57,7 @@ __info functions__ näyttää funktiot
 
 ![Screenshot](h5_infof.png)
 
-Epäsystemaattisesti yritin sitä sun tätä, eli enimmäkseen kyselin ChatGPT:ltä, miten debuggeri toimii ja mitä sillä mahdollisesti voisi selvittää, mutta lopulta luovutin.
+Epäsystemaattisesti yritin sitä sun tätä, eli enimmäkseen kyselin ChatGPT:ltä, miten debuggeri toimii ja kokeilin sen neuvoja, mutta lopulta luovutin.
 
 ### c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
 Luin Nora Crackmes -sivun ohjeista, että nämä tehtävät pitäisi tehdä ilman lähdekoodia. Kolmostehtävästä salasanan näkikin suoraan koodista. Vilkaisin binääriä debuggerissa, mutta en tiennyt mistä aloittaa ratkaisun yrittämisen, ja sitten luovutin.
