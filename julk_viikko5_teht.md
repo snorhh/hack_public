@@ -20,7 +20,7 @@ Menin nextillä eteenpäin, ja nyt ohjelma printtasi "Program received signal SI
 
 Lähdekoodissa on siis funktio print_scrambled, joka saa parametrinä char-tyyppisen viestin, ja sitten do-while-loopissa tulostetaan viesti "skrämblättynä" niin, että alkuperäisen merkin sijasta tulostetaan kolmen merkin päässä oleva merkki, eli esimerkiksi a:n sijasta tulostettaisiin d.
 
-Kun ohjelmaa ajoi, se ensin tulosti Khoor/#zruog1, eli ohjelman "good_message"-muuttujan arvon "Hello, world." skrämblättynä. Ohjelma kaatuu rivillä seitsemän "printf("%c", (*message)+i);", koska se saa parametrina NULL-arvon. Ehkei ole järkeä skrämblätä viestiä, jota ei ole.
+Kun ohjelmaa ajoi, se ensin tulosti Khoor/#zruog1, eli ohjelman "good_message"-muuttujan arvon "Hello, world." skrämblättynä. Ohjelma kaatuu rivillä seitsemän "printf("%c", (*message)+i);", koska se saa parametrina NULL-arvon. 
 
 Tein ohjelmasta kopion ja yritin korjata ongelman. Pari omaa kokeiluani epäonnistui, ensin virheilmoitukseen "comparison between pointer and interger", kun olin tehnyt tarkistuksen "if (message != NULL). Sitten kokeilin if (sizeof(*message > 0))., jolloin ohjelma hyppäsi koko rivin yli. Kysyin lopulta asiaa GPT:ltä, ja se selitti, että kyseessä on sellainen rakenne, että se on aina true, ja siksi ohjelman kääntäjä ei välitä siitä. ChatGPT:n neuvomalla komennolla __info line fixit.c:6__  näinkin, että kyseisen rivin assembly-koodissa ei ollut mitään. 
 
@@ -36,7 +36,7 @@ Lopuksi testasin korjaamattomalla "gyksi"-ohjelmalla ja korjatulla "fiksu"-ohjel
 
 ### b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi. 
 
-Lab2-zip-tiedostossa näytti olevan sama ohjelma kuin aiemmassa tehtävässä eli passtr. Lisäksi siellä oli binääritiedosto passtr2o. READMED.md-tiedostossa kehotettiin selvittämään sen salasana. Ohjelma toimi samalla tavalla kuin passtr, eli kysyi "What's the password" ja sen jälkeen tarkisti sen.
+Lab2-zip-tiedostossa näytti olevan sama ohjelma kuin aiemmassa tehtävässä eli passtr. Lisäksi siellä oli binääritiedosto passtr2o. README.md-tiedostossa kehotettiin selvittämään sen salasana. Ohjelma toimi samalla tavalla kuin passtr, eli kysyi "What's the password" ja sen jälkeen tarkisti sen.
 
 Passtr2o-tiedoston mukana siis ei ollut lähdekoodia mukana vaan pelkkä binääri.  Stringsillä binääristä löytyi tuttu "What's the password?" ja muun muassa teksti "check_password".
 
