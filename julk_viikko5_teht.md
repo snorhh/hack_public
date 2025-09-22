@@ -37,7 +37,7 @@ Lopuksi testasin korjaamattomalla "gyksi"-ohjelmalla ja korjatulla "fiksu"-ohjel
 
 ### b) Lab2. Selvitä salasana ja lippu + kirjoita raportti siitä miten aukesi. 
 
-Lab2-zip-tiedostossa näytti olevan sama ohjelma kuin aiemmassa tehtävässä eli passtr. Lisäksi siellä oli binääritiedosto passtr2o. README.md-tiedostossa kehotettiin selvittämään sen salasana. Ohjelma toimi samalla tavalla kuin passtr, eli kysyi "What's the password" ja sen jälkeen tarkisti sen.
+Lab2-zip-tiedostossa näytti olevan sama ohjelma kuin aiemman viikon tehtävässä eli passtr. Lisäksi siellä oli binääritiedosto passtr2o. README.md-tiedostossa kehotettiin selvittämään sen salasana. Ohjelma toimi samalla tavalla kuin passtr, eli kysyi "What's the password" ja sen jälkeen tarkisti sen.
 
 Passtr2o-tiedoston mukana siis ei ollut lähdekoodia mukana vaan pelkkä binääri.  Stringsillä binääristä löytyi tuttu "What's the password?" ja muun muassa teksti "check_password".
 
