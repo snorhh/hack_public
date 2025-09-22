@@ -57,7 +57,7 @@ __info functions__ näyttää funktiot
 
 ![Screenshot](h5_infof.png)
 
-En malttanut tutustua teoria-asioihin kunnolla, vaan enimmäkseen tappelin ChatGPT:n kanssa, jotta se selittäisi miten saisin esimerkiksi tutustuttua assemblyyn ilman, että koodi ajetaan ja ohjelma loppuu. Jossain vaiheessa sainkin sen toimimaan (mutta en enää muista miten, koska en kirjoittanut ohjeita ylös). Epäsystemaattisesti yritin sitä sun tätä, mutta kun ratkaisu ei mistään hypännyt silmään, niin lopulta luovutin.
+Epäsystemaattisesti yritin sitä sun tätä, eli enimmäkseen kyselin ChatGPT:ltä, miten debuggeri toimii ja mitä sillä mahdollisesti voisi selvittää, mutta kun ratkaisu ei mistään hypännyt silmään, niin lopulta luovutin.
 
 ### c) Lab3. Kokeile Nora Crackmes harjoituksia tehtävä 3 ja 4 ja loput vapaaehtoisia. Tindall 2023: NoraCodes / crackmes.
-Luin Nora Crackmes -sivun ohjeista, että nämä tehtävät pitäisi tehdä ilman lähdekoodia. Kolmostehtävästä salasanan näkikin suoraan koodista. Vilkaisin binääriä debuggerissa, mutta sitten luovutin.
+Luin Nora Crackmes -sivun ohjeista, että nämä tehtävät pitäisi tehdä ilman lähdekoodia. Kolmostehtävästä salasanan näkikin suoraan koodista. Vilkaisin binääriä debuggerissa, mutta en tiennyt mistä aloittaa ratkaisun yrittämisen, ja sitten luovutin.
