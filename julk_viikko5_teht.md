@@ -44,6 +44,8 @@ Passtr2o-tiedoston mukana siis ei ollut lähdekoodia mukana vaan pelkkä binää
 
 Komennolla __objdump -d passtr2o__ näkyi kaikenlaista.
 
+![Screenshot](h5_dump.png)
+
 Olin aika pihalla ja kyselin ChatGPT:ltä erilaisia komentoja, joita kokeilin.
 
 __disassemble main__ näyttää main-funktion asssemblyrivit  
