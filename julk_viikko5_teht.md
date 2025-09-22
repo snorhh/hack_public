@@ -15,7 +15,7 @@ Asetin keskeytyspisteen main-ohjelman alkuun __break main__ ja ajoin sitten ohje
 
 Step-askelilla pääsin print_srambled-funktioon. Funktiolla on parametri char *message, jossa * tarkoittanee taas pointteria, eli konseptia johon en vielä ole ihan päässyt sisälle.
 
-Menin nextillä eteenpäin, ja nyt ohjelma printtasi "Program received signal SIGSEV, Segmentation fault". 0x000055555555514f in print_scrambled" (message=0x0) at gdb_example1.c:7. Ongelma oli siis rivillä seitsemän.
+Menin nextillä eteenpäin, ja nyt ohjelma printtasi virheilmoituksen "Program received signal SIGSEV, Segmentation fault", josta selvisi, että ongelma on rivillä seitsemän.  
 
 ![Screenshot](h5_error.png)
 
