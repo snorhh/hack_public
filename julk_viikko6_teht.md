@@ -20,7 +20,7 @@ Ihan viimeisenä sitten löytyikin jotain oikeasti outoa, eli h1.jpg-tiedostosta
 
 ![Screenshot](h6_unknown2.png)
 
-Kokeilin vielä strings-työkalua. h1.jpg-kuvasta löytyi xml-tiedostoja ja jotain mikä päättyi merkkijonoon "xmlPK". ChatGPT sanoi sen viittaavan siihen, että siellä on Zip-tiedosto, jossa on sisällä xml-tiedostoja. 
+Stringsillä h1.jpg-kuvasta löytyi xml-tiedostoja ja jotain mikä päättyi merkkijonoon "xmlPK". ChatGPT sanoi sen viittaavan siihen, että siellä on Zip-tiedosto, jossa on sisällä xml-tiedostoja. 
 
 ![Screenshot](h6_strings12.png)
 
