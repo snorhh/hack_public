@@ -66,7 +66,7 @@ ChatGPT kertoi, että APK on "ZIP-arkisto, jossa on tietynlainen rakenne".  Unzi
 
 ![Screenshot](h6x_lib.png) 
 
-Jadx-gui-työkalussa katsoin classes.dex-tiedostoja, ja työkalulla pystyy selaamaan ohjelman toimintoja, esim. tässä Wikipedia-tilin luominen.
+Jadx-gui-työkalussa katsoin classes.dex-tiedostoja. Työkalulla pystyy selaamaan ohjelman toimintoja, esim. tässä Wikipedia-tilin luominen.
 
 ![Screenshot](h6xxx.png) 
 
