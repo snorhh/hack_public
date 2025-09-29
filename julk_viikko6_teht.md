@@ -42,11 +42,7 @@ Yksi tiedostoista oli futuristinen kuva.
 
 Yritin kokeilla binwalk-työkalun entropia-toimintoa, mutta en saanut sitä toimimaan. 
 
-Yritin unzipata Word-dokumentin, mutta se ei toiminut. ChatGPT neuvoi kokeilemaan 7z:aa, ja se toimi. Ensin listasin arkiston sisällön.
-
-![Screenshot](h6_7z.png)
-
-Sitten taas GPT:n ohjeistamalla komennolla purin arkiston. Ohjelma varoitti, että arkiston lopun jälkeen on vielä dataa.
+Yritin unzipata Word-dokumentin, mutta se ei toiminut. ChatGPT neuvoi kokeilemaan 7z:aa, ja se toimi.  Ohjelma varoitti, että arkiston lopun jälkeen on vielä dataa.
 
 ![Screenshot](h6_7z2.png)
 
