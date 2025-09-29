@@ -70,3 +70,5 @@ Jadx-gui-työkalussa katsoin classes.dex-tiedostoja. Työkalulla pystyy selaamaa
 
 ![Screenshot](h6xxx.png) 
 
+Bytecode-viewer-ohjelmaa en oikein ehtinyt kokeilla. Vaikka raportti on lyhyt, niin en ole maininnut siinä kaikkia niitä asioita, joita kokeilin, kun sokeasti seurasin ChatGPT:n ohjeita. Ehkä siitäkin ajan tuhlauksesta opin jotain, eli sen että pitäisi miettiä mitä tekee, ennen kuin käyttää siihen tunteja ajastaan.
+
