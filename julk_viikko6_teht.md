@@ -4,7 +4,7 @@ Kaikissa tehtävissä käytin ChatGPT:tä mm. komentoihin.
 
 ### Lab0: Tutki tiedostoa h1.jpg, jo opituilla työkaluilla mitä saat selville?
 
-Jotta pystyisin vertaamaan tiedostoa "normaaliin" jpg-tiedostoon, tallensin Wikimedia Commonsista kuvan, jonka nimeksi annoin "iso.jpg".
+Jotta pystyisin vertaamaan tiedostoa "normaaliin" jpg-tiedostoon, tallensin Wikimedia Commonsista kuvan, jonka nimeksi annoin "iso.jpeg".
 
 File-työkalulla tiedostojen sisällöt näyttivät aika samanlaisilta:
 
