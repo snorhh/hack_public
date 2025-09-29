@@ -46,7 +46,7 @@ Yritin unzipata Word-dokumentin, mutta se ei toiminut. ChatGPT neuvoi kokeilemaa
 
 ![Screenshot](h6_7z2.png)
 
-Hakemistoon ilmestyi nyt uusi hakemisto "docx_contents", jossa oli muutama kansio, mm. kansio "word", johon GPT kehotti menemään. 
+Hakemistossa "docx_contents" oli muutama kansio, mm. kansio "word", johon GPT kehotti menemään. 
 
 Siellä oli useita xml-tiedostoja, joista ChatGPT sanoi, että "document.xml" on itse tekstidokumentti. 
 
