@@ -92,7 +92,7 @@ for i, byte in enumerate(hex_decoded1):
 				
 Sain virheilmoituksen, ja ChatGPT nauroi koodilleni.
 
-Se korjasi koodini: 
+Se korjasi koodini, eli en siis tehnyt ratkaisua itse: 
 
 ```
 import binascii
