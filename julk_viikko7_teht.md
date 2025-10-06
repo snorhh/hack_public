@@ -39,7 +39,7 @@ Sen jälkeen tein `binascii.b2a_base64(unhexStringy)`, josta tuli haluttu string
 
 ![Screenshot](h7_2.png)
 
-Sekoilin tämän kanssa aika kauan, mutta opinhan ainakin sen, että unhexflify() ja a2b_hex() ovat sama asia, ja base64.b64encode() ja binascii.b2a_based64() tekevät saman asian, mutta jälkimmäinen lisää loppuun uuden rivin.
+Sekoilin tämän kanssa aika kauan, mutta opinhan ainakin sen, että unhexflify() ja a2b_hex() ovat sama asia, ja base64.b64encode() ja binascii.b2a_base64() tekevät saman asian, mutta jälkimmäinen lisää loppuun uuden rivin.
 
 ![Screenshot](h7_1.png)
 
