@@ -1,4 +1,17 @@
-# 🧠 GDB Cheat Sheet
+## GDB aloitus
+gcc main.cpp -g -o main-dbg
+
+The -g flag adds the symbol table (variable names, line numbers, etc.) into the binary — so GDB can map machine instructions back to your source code.
+
+gdb ./main-dbg
+
+Inside GDB, it automatically detects and loads the source file if it’s in the same directory (or in a directory listed with the directory command).
+
+/ ChatGPT
+
+
+
+# GDB Cheat Sheet
 
 ## Running
 
