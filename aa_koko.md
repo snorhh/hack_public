@@ -1454,7 +1454,7 @@ int main(void){
 
 ---
 
-If you want: I can (pick one) 1) expand the annotated asm with actual `objdump` output for the Hello example, 2) convert the exercise solutions into small test harnesses, or 3) make the one-page cheat-sheet into a printable PDF.
+
 
 ### H3tehtävät
 
