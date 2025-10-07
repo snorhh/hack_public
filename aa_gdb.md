@@ -305,3 +305,83 @@ Print type of named variable.
 ---
 
 © 2007 Marc Haisenko — [marc@darkdust.net](mailto:marc@darkdust.net)
+
+
+
+-----------------------------------
+## Compiling the Code
+
+```bash
+g++ main.cpp -o main
+```
+
+Compiles code into an executable file.
+
+To enable debugging:
+
+```bash
+g++ main.cpp -g -Wall -Werror -o main-dbg
+```
+
+### Compiler Flags
+
+* `-g` → adds debugging information
+* `-Wall` → enables all common warnings
+* `-Werror` → treats warnings as errors, preventing compilation until fixed
+
+---
+
+## Running GDB
+
+```bash
+gdb ./main-dbg
+```
+
+| Command              | Description                          |
+| -------------------- | ------------------------------------ |
+| `list` or `l`        | Show source code                     |
+| `break <line>`       | Set breakpoint (e.g., `break 17`)    |
+| `delete`             | Remove breakpoints                   |
+| `info breakpoints`   | Show breakpoints                     |
+| `disable` / `enable` | Deactivate or reactivate breakpoints |
+| `run`                | Start program execution              |
+| `exit`               | Quit GDB                             |
+| `step`               | Step into function                   |
+| `next`               | Step over function                   |
+| `finish`             | Run until current function returns   |
+| `until`              | Run until specific line is reached   |
+
+---
+
+## Debugging Example
+
+```bash
+g++ main.cpp -g -Wall -Werror -o main-dbg
+gdb ./main-dbg
+```
+
+Inside GDB:
+
+```bash
+list
+break 11
+run
+step
+list
+watch n
+watch result
+print val
+next
+continue
+quit
+```
+
+
+
+* [GDB Manual](https://www.sourceware.org/gdb/current/onlinedocs/gdb.html/)
+* [GDB Threads Documentation](https://www.sourceware.org/gdb/current/onlinedocs/gdb.html/Threads.html)
+* [Red Hat: GDB Tutorial (Part 1)](https://developers.redhat.com/articles/the-gdb-developers-gnu-debugger-tutorial-part-1-getting-started-with-the-debugger)
+* [UPenn GDB Tutorial](https://www.seas.upenn.edu/~ese5320/fall2021/handouts/hw1/gdb_tutorial.html)
+* [Cprogramming.com GDB Guide](https://www.cprogramming.com/gdb.html)
+
+Lähde: Kurssimateriaali
