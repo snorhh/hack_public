@@ -1,4 +1,3 @@
-Taktiikka: katson sen yhden opiskelijan raportit (ainakin)
 ## h1 ei mitään
 ## h2 
 
